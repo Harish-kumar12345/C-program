@@ -1,0 +1,17 @@
+/*********************************sum of first n natural number***************************/
+#include<iostream>
+using namespace std;
+
+int main(){
+    int i, sum=0, n;
+    cout<<"Enter the no. that you want to sum upto that number"<<endl;
+    cin>>n;
+    for ( i = 1; i <= n; i++)
+    {
+        sum=sum + i;
+    }
+    cout<<"the sum of first n natural number is ="<<sum<<endl;
+
+    
+    return 0;
+}
