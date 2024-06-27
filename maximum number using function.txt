@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+
+int max(int a, int b);
+int main()
+{
+    int num1, num2;
+    cout << "Enter the value of num 1" << endl;
+    cin >> num1;
+    cout << "Enter the value of num 2" << endl;
+    cin >> num2;
+
+    max(num1, num2);
+
+    return 0;
+}
+
+int max(int a, int b)
+{
+    if (a > b)
+    {
+        cout << "the value of a is greater than b" << endl;
+    }
+    else
+    {
+        cout << "the value of b is greater than a" << endl;
+    }
+    return 0;
+}
